@@ -61,7 +61,7 @@ class SlackMessage(Entity):
 
         try:
             '''
-            We want to avoid providing the same message twice the first time we get the time stamp of the latest message available.
+            We want to avoid providing the same message twice.  Therefore when starting up, we get the time stamp of the latest message available.
             We don't save the message but we update the timestamp field and then check for any newer messages than that next time.
             '''
             if self._ts is None:

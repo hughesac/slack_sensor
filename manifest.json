@@ -1,0 +1,11 @@
+{
+  "domain": "slack_sensor",
+  "name": "Slack Sensor",
+  "config_flow": false,
+  "requirements": [
+    "slackclient==2.5.0"
+  ],
+  "codeowners": [
+    "@hughesac"
+  ]
+}

@@ -17,4 +17,12 @@ sensor:
     # Optional, how often to poll slack for a new message
     scan_interval: 3
 ```    
+## Attributes
+- text: 'the text of the message'
+- timestamp: '1606177147.000100'
+- sender: U12ABCDEF
+  - The ID of the sender
+- channel: 1234ABCDEF
+  - The ID of the channel the message was from
+- friendly_name: YOUR_SLACK_SENSOR
 

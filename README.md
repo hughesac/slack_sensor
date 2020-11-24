@@ -20,6 +20,7 @@ sensor:
 ## Attributes
 - text: 'the text of the message'
 - timestamp: '1606177147.000100'
+  - The timestamp of the latest message
 - sender: U12ABCDEF
   - The ID of the sender
 - channel: 1234ABCDEF
